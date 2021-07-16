@@ -1,0 +1,68 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "I have a question can you help me"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns":[
+          "cya",
+          "see you later",
+          "Goodbye",
+          "I am leaving",
+          "Have a Good day",
+          "Bye"  ],
+          "responses":[
+            "Goodbye",
+            "Welcome",
+            "Sad to see you go",
+            "Happy to serve you"
+          ]
+      },
+      {
+        "tag":"location",
+        "patterns":[
+          "where are you located",
+          "How can I get to TUK",
+          "Locations",
+          "Where are you"
+        ],
+        "responses":[
+          "We are located along Haille Selassie Avenue",
+          "Haille Selassie avenue opposite Times Towers"
+        ]
+      },
+      {
+        "tag":"fees",
+        "patterns":[
+          "How do I pay fees",
+          "Can I pay fees via Mpesa",
+          "What is the account number for fee payment",
+          "Do you accept cash payment"
+        ],
+        "responses":[
+          "You can pay fee using Cooperative bank, Equity or Mpesa",
+          "We don't accept cash payment, use MPESA, Cooperative bank or Equity banks",
+          "All payments to be made to either Cooperative Bank A/C No. 01129006234900 or Equity Bank A/C No. 0540290597366"
+
+        ]
+      }
+      
+    ]
+
+  }
