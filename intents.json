@@ -9,7 +9,8 @@
           "Is anyone there?",
           "Hello",
           "Good day",
-          "I have a question can you help me"
+          "I have a question can you help me",
+          "goodmorning"
         ],
         "responses": [
           "Hey :-)",
@@ -51,6 +52,7 @@
         "tag":"fees",
         "patterns":[
           "How do I pay fees",
+          "How can I pay fees",
           "Can I pay fees via Mpesa",
           "What is the account number for fee payment",
           "Do you accept cash payment"
@@ -61,7 +63,91 @@
           "All payments to be made to either Cooperative Bank A/C No. 01129006234900 or Equity Bank A/C No. 0540290597366"
 
         ]
+      },
+      {
+        "tag":"courses",
+        "patterns":[
+          "courses offered ",
+          "Amount of fees  "
+          
+        ],
+        "responses":[
+          "We offer Business courses, Engineering courses,Computer courses,art, Bio-engineering",
+          ""
+        ]
+      },
+      {
+        "tag":"contacts",
+        "patterns":[
+          "How can I contact university",
+          "How can I make my enquiries",
+          ""
+        ],
+        "responses":[
+          "For general enquiries use: info@tukenya.ac.ke",
+          "For feedback/complaints/suggestions use: customercare@tukenya.ac.ke",
+          "To make official communications use: vc@tukenya.ac.ke",
+          "TUK TelNo is: +254(020)2219929, 33416339, 3343672"
+
+        ]
+      },
+      {
+        "tag":"module1",
+        "patterns":[
+          "What are the teaching hours for module 1",
+          "What are the class hours for degree program"
+
+        ],
+        "responses":[
+          "Classes start from 7am to 6pm"
+        ]
+      },
+      {
+        "tag":"module2",
+        "patterns":[
+          "Does offer diploma courses",
+          ""
+        ],
+        "responses":[
+
+        ]
+      },
+      {
+        "tag":"schools",
+        "patterns":[
+
+        ],
+        "responses":[
+
+        ]
+      },
+      {
+        "tag":"Registration",
+        "patterns":[
+          ""
+        ],
+        "responses":[
+
+        ]
+      },
+      {
+        "tag":"clusterpoints",
+        "patterns":[
+          "What are the clust"
+        ]
+      },
+      {
+        "tag":"finya",
+        "patterns":[
+          "nitakufinya"
+        ],
+        "responses":[
+          "finyaa"
+
+        ]
       }
+
+
       
     ]
 

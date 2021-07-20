@@ -6,13 +6,25 @@ import numpy as np
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
+'''
+split sentence into array of words/tokens
+'''
 def tokenize(sentence):
     
     return nltk.word_tokenize(sentence)
 
+'''
+stemming = find the root form of the word
+'''
 def stem(word):
     return stemmer.stem(word.lower())
 
+
+'''
+ sentence = ["hello", "how", "are", "you"]
+    words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
+    bog   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]
+'''
 def bag_of_words(tokenized_sentence, words):
     # stem each word
     sentence_words = [stem(word) for word in tokenized_sentence]
